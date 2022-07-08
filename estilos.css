@@ -1,0 +1,250 @@
+*{box-sizing: border-box;
+  background-image: url(./IMAGENES/FONDO\ TODA\ LA\ PAGINA2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+.cabecera {
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    overflow: auto;
+    padding: 5px;
+    top: 0px;  
+    text-align: center; 
+}
+@media (max-width:768px) {
+    .cabecera {
+        height: 90%;
+        width: 90%;
+        overflow: hidden;
+    }
+}
+.foto__mundial {  
+    margin: 44%;
+    text-align: center;
+}
+.cabecera__nav {
+    display: block;
+    text-align: center;   
+}
+.cabecera__nav:hover {
+    background-color: chartreuse;
+}
+.cuerpo__pagina {
+    display: grid;
+    grid-template-columns: auto auto auto auto;  
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}  
+@media (max-width:768px) {
+    .cuerpo__pagina {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.foto__maradona {  
+    background-color: rgba(225, 0, 0, 0.4);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border: solid 3px;
+}
+
+.foto__maradona__titulo {
+    text-align: center;
+}
+
+.imagen__qatar2022 {
+    text-align: center;
+}
+
+.fases__del__mundial {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+     
+}
+
+.fases__del__mundial__titulo {
+    text-align: center;
+}
+.estadios {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.estadios__titulo {
+    text-align: center;
+}
+.grupo__D {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.grupo__E {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.grupo__F {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.grupo__G {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.grupo__H {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 100%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px; 
+    text-align: center;
+    border: solid 3px;
+}
+.leer__mas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  border: solid 1px;
+}
+.chat {
+    background-color: rgb(204, 197, 197);
+    border: solid 5px;
+    margin: 1px;
+    position: fixed;
+    bottom: 9px;
+    right: 0px;
+}
+
+.imagen__publicidad__footer { 
+    width: 100%;
+    height: 100%;
+    text-align: center; 
+    border: solid 1px;    
+}
+ @media (max-width 768px) {
+    .imagen__publicidad__footer {
+        height: auto;
+        width: auto;
+        margin-left: 0%;
+    }
+ }   
+.publicidad {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    grid-template-columns: repeat(3,1fr);
+    height: 100%;
+}
+.section__footer {
+    background-image: url(./IMAGENES/IMAGEN\ FOOTER.jpg);
+    display: flex;
+    border: solid 2px ;
+    grid-template-rows: 10px 10px;
+    
+    
+}
+.footer {
+    background-image: url(./IMAGENES/IMAGEN\ FOOTER.jpg);
+    width: 50%;
+    height: 50%;
+    margin: 1%;
+    overflow: auto;
+    padding: 5px;
+    
+}
+.footer__texto  {
+  background-image: url(./IMAGENES/IMAGEN\ FOOTER.jpg);
+  text-align: center; 
+}
+.footer__2 {
+    width: 50%;
+    height: 40%;
+    margin: 1%;
+    text-align: center;   
+    background-image: url(./IMAGENES/IMAGEN\ FOOTER.jpg);
+}
+.messi {
+    display: grid;
+    grid-template-columns: auto auto;  
+    grid-template-columns: repeat(2,1fr);
+}
+.messi__jugador {
+    text-align: center;
+}
+.messi__imagen {
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.messi__parrafo {
+    text-align: center;
+    border: solid 2px;
+}
+.entradas {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.entradas__mundial {
+    text-align: center;
+    border: solid 2px;
+}
+.alojamientos {
+    text-align: center;
+    border: solid 2px;
+}
+.hoteles {
+    text-align: center;
+    border: solid 2px;
+}
